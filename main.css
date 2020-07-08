@@ -7,6 +7,7 @@ span.caret {
     position: absolute;
     left: 90%;
     top: 45%;
+    
 }
 
 label {
@@ -18,12 +19,26 @@ label {
 }
 
 img {
-    width:140px;
-    height:140px;
+    width:200px;
+    height:200px;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .btn-success {
-    background-color: #3b7d4a!important;
+    background-color: #20a33e!important;
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
 }
 
 .btn-success:hover {
@@ -31,5 +46,5 @@ img {
 }
 
 img.track {
-    border: 1px solid #8a8a8a;
+    border: 1px solid #0a0a0a;
 }
